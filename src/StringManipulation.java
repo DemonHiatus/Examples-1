@@ -30,7 +30,7 @@ public class StringManipulation {
         int lPosition = changeWord.indexOf("l");
         
         // found an l at the end
-        if(lPosition !=-1){
+        if(lPosition != -1){
             // breaking the string apart
             // starts at the beggining and goes up to the l
             String beginning = changeWord.substring(0, lPosition);
@@ -49,7 +49,7 @@ public class StringManipulation {
         int length = word.length();
         // walk through the characters using a loop
         int count = 0;
-        for(int i = 0; 1 < length; i++){
+        for(int i = 0; i < length; i++){
             // look at the character
             // is the charactter an l
             if(word.charAt(i) == 'l'){
